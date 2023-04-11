@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023/03 on RD Notes</title>
+    <link>https://rdnotes.com/archives/2023/03/</link>
+    <description>Recent content in 2023/03 on RD Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language><atom:link href="https://rdnotes.com/archives/2023/03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[SSL]Ubuntu＋Nginx透過 Certbot 免費取得 Let&#39;s Encrypt SSL憑證</title>
+      <link>https://rdnotes.com/post/nginx-certbot-lets-encrypt-addssh/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdnotes.com/post/nginx-certbot-lets-encrypt-addssh/</guid>
+      <description>我們透過Nginx設定完http server後，會發現網域前面左上角也沒有🔓符號，所以google瀏覽器會視為不安全，這篇主要說明如何在Nginx透過 Certbot 免費取得 Let&amp;rsquo;s Encrypt SSL憑證，讓自己的網頁從http變成https。。
+上一篇文章有提到Nginx http server設定
+ [Nginx設定]Virtual Host Nginx http server以及多個網域共用一台主機設定  環境:
+ Ubuntu 18.04 nginx 1.14.0  安裝Certbot 這邊一樣需要先ssh上主機，關於ssh的連線有在 上一篇做說明。ssh上主機後輸入以下指令：
+$ sudo add-apt-repository ppa:certbot/certbot $ sudo apt install python-certbot-nginx  Nginx http server 設定 雖然Certbot在申請完SSL憑證之後會幫你修改Nginx的設定，但是我們要先將要申請SSL憑證的網域裡nginx的.conf檔當中的server_name先設定好。
+server{ listen 80; # Certbot會找到與產生憑證相符的網域，並且把設定加這個區塊裡 server_name www.example1.com ; # 你要申請SSL網域 root /var/www/website2; # 你要申請SSL網域的網頁檔案路徑 location / { index index.html index.hml; } }  在申請SSL憑證的時候，Certbot會根據你設定在nginx當中的server_name找當與該網域相符的檔案做修改。
+獲取憑證(SSL Certificate) 使用 nginx 執行 certbot，-d代表指令我們要申請憑證的子網域。</description>
+    </item>
+    
+    <item>
+      <title>[Nginx設定]Virtual Host Nginx http server與多個網域共用一台主機設定</title>
+      <link>https://rdnotes.com/post/nginx-multiple-domains-on-one-server/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdnotes.com/post/nginx-multiple-domains-on-one-server/</guid>
+      <description>使用情境：兩個網域要指向同一個 IP 的設定。
+假設有兩個網域www.example1.com、www.example.com分別要指向website1、website2，而這兩個網頁的檔案內分別都放置各自的index.html。而假設主機的IP是192.162.123.123。
+ www.example1.com 要指向192.162.123.123 www.example2.com也要指向192.162.123.123  nginx多個網域共用一台主機，需要做兩個設定：
+ Nginx設定 DNS設定  Nginx設定 $ ssh 帳號@主機  example ssh to 192.162.123.123:
+$ ssh root＠192.162.123.123  -- 輸入ssh指令按下enter後可以看到輸入密碼的欄位 密碼輸入成功後，如果出現以下畫面就表示ssh成功了 延續上圖看到的畫面之後，現在我們要找到nginx所在的路徑，一般都會在/etc/nginx。因此我們直接cd /etc/nginx資料夾。
+$ root@localhost:~# cd /etc/nginx  當我們進入到/etc/nginx之後，輸入ls之後會看到很多檔案。
+ $ root@localhost:/etc/nginx/# ls  而我們今天會用到 conf.d資料夾、nginx.conf檔案， 畫面停留在上圖之後
+$ cd conf.d/  Step1:在這個路徑下新增檔案
+$ sudo touch website1.conf  Step2:編輯新增的檔案website1.conf
+ $ sudo vi website1.conf  Step3:進入編輯模式後，要按 i 才可以編輯，然後貼上這段。
+server{ listen 80; server_name www.</description>
+    </item>
+    
+  </channel>
+</rss>
