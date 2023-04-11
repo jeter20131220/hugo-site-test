@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on RD Notes</title>
-    <link>https://rdnotes.com/categories/</link>
-    <description>Recent content in Categories on RD Notes</description>
+    <title>Categories on news hugo site</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on news hugo site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://rdnotes.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Copyright © 2022</copyright>
+    <lastBuildDate>Wed, 20 Jul 2022 17:31:42 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>syntax</title>
+      <link>http://localhost:1313/categories/syntax/</link>
+      <pubDate>Wed, 20 Jul 2022 17:31:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theme</title>
+      <link>http://localhost:1313/categories/theme/</link>
+      <pubDate>Wed, 20 Jul 2022 17:31:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://localhost:1313/categories/hugo/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>http://localhost:1313/categories/themes/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fluff</title>
+      <link>http://localhost:1313/categories/fluff/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/fluff/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

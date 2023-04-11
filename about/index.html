@@ -1,305 +1,142 @@
 <!DOCTYPE html>
+<html lang="en" data-theme="light">
 
-<html lang="zh-tw">
 <head>
-    
-    
-    <title>RD Notes | About</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <link rel="apple-touch-icon" sizes="180x180" href='/favicon/apple-touch-icon.png'>
-    <link rel="icon" type="image/png" sizes="32x32" href='/favicon/favicon-32x32.png'>
-    <link rel="icon" type="image/png" sizes="16x16" href='/favicon/favicon-16x16.png'>
-    
-    
-    <link rel="shortcut icon" type="image/x-icon" sizes="64x64" href='/favicon/favicon.png' />
-    <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="RD Notes | About" />
-    
-    
-    
-    <link rel="stylesheet" href="/css/style.min.459f54c6e44ba4d830f068cce31682073aa9a9401dfb0c2bde7c050fa3195719.css" />
-    
-    <link href=' /css/blonde.min.css' rel="stylesheet" type="text/css" media="print"
-        onload="this.media=' all'">
-    
-
-
-
-<meta name="description" content="Hugo, the world&#39;s fastest framework for building websites">
-<meta property="og:site_name" content="RD Notes">
-<meta property="og:description" content="Hugo, the world&#39;s fastest framework for building websites">
-<meta property="og:url" content="https://rdnotes.com/about/">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="">
-
-<link rel="canonical" href="https://rdnotes.com/about/">
-
-<meta name="twitter:description" content="Hugo, the world&#39;s fastest framework for building websites">
-<meta property="article:published_time" content="2019-02-28T00:00:00&#43;00:00">
-<meta property="article:updated_time" content="2019-02-28T00:00:00&#43;00:00">
-
-
-
-
-
-<meta property="og:image" content="https://rdnotes.com/">
-<meta property="og:image:url" content="https://rdnotes.com/">
-
-    
-    <link rel="stylesheet" href='/css/custom.css'>
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9QL0S1XGBP"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-9QL0S1XGBP');
-    </script>
-    <i class="dark hidden"></i>
-</head><body class="font-sans">
-    <div class="min-h-screen flex flex-col bg-gray-100 dark:bg-warmgray-800"><div class="bg-gray-800">
-    <div class="container max-w-screen-xl mr-auto ml-auto">
-        <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
-            <div class="flex items-center flex-no-shrink bg-gray-800 text-white mr-6">
-                <a href="https://rdnotes.com/"><span class="font-semibold text-2xl tracking-tight">RD Notes</span></a>
-            </div>
-            <div class="flex md:hidden">
-                <div class="py-2">
-                    <button onclick="toggleDarkMode()" class="focus:outline-none mr-1" aria-label="Darkmode Toggle Button"><i id="icon"
-                            class="icon-moon inline-flex align-middle leading-normal text-lg text-white"></i></button>
-                    <span class="text-white">|</span>
-                </div>
-                <button id="hamburgerbtn" class="flex items-center px-3 py-1 text-white hover:opacity-50" aria-label="Hamburger Button">
-                    <span class="icon-menu text-2xl"></span>
-                </button>
-            </div>
-            <div class="hidden w-full md:flex md:flex-row sm:items-center md:w-auto" id="mobileMenu">
-                <div class="text-sm lg:flex-grow">
-                </div>
-                <div class="navmenu">
-                    
-                    <a href="/"
-                        class="no-underline duration-200 block mt-4 sm:inline-block sm:mt-0 text-white hover:opacity-50 mr-4">
-                        Home
-                    </a>
-                    
-                </div>
-                <div class="text-white invisible md:visible">
-                    <span>|</span>
-                    <button onclick="toggleDarkMode()" class="focus-visible:outline-none" aria-label="Darkmode Toggle Button"><i id="icon2"
-                            class="icon-moon hover:opacity-50 duration-200 inline-flex align-middle leading-normal text-lg ml-2"></i></button>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-<style>
-    .active {
-        display: block;
-    }
-</style>
-
-<script>
-    let hamburger = document.getElementById('hamburgerbtn');
-
-    let mobileMenu = document.getElementById('mobileMenu');
-
-    hamburger.addEventListener('click', function () {
-        mobileMenu.classList.toggle('active');
-    });
-</script>
-<div class="container max-w-screen-xl mx-auto mt-4 flex-grow px-5 lg:px-0" id="content">
-            <div class="lg:mx-5">
-<div class="grid grid-cols-3 gap-4">
-    
-    <div class="bg-white col-span-3 lg:col-span-2 p-5 dark:bg-warmgray-900 dark:text-white">
-        
-            <h1 class="title text-4xl font-bold mb-2">About</h1>
-            <div class="content prose md:prose-lg lg:prose-xl max-w-none dark:prose-invert py-1">
-                <p>Written in Go, Hugo is an open source static site generator available under the <a href="https://github.com/gohugoio/hugo/blob/master/LICENSE">Apache Licence 2.0.</a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</p>
-<p>Hugo makes use of a variety of open source projects including:</p>
-<ul>
-<li><a href="https://github.com/yuin/goldmark">https://github.com/yuin/goldmark</a></li>
-<li><a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a></li>
-<li><a href="https://github.com/muesli/smartcrop">https://github.com/muesli/smartcrop</a></li>
-<li><a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra</a></li>
-<li><a href="https://github.com/spf13/viper">https://github.com/spf13/viper</a></li>
-</ul>
-<p>Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.</p>
-<p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.</p>
-<p>Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.</p>
-<p>Learn more and contribute on <a href="https://github.com/gohugoio">GitHub</a>.</p>
-
-            </div>
-        </div>
-        
-            <div class="hidden lg:block lg:col-span-1">
-    
-    
-            
-            <div class="mb-3">
-    <form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-        <label>
-            <input class="w-full p-3 focus:outline-none dark:bg-warmgray-900 dark:text-white placeholder-gray-700 dark:placeholder-gray-300" type="search"
-                placeholder="Search..." value="" name="q" aria-label="Search">
-        </label>
-        <input class="hidden" type="submit" value="Search">
-        <input type="hidden" name="sitesearch" value="https://rdnotes.com/" />
-    </form>
-</div>
-        
-            
-            <div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900">
-    <p class="text-xl text-center text-gray-700 py-3 px-3 dark:text-gray-300 font-bold">Archives</p>
-    
-    
-    <a class="text-center block duration-100 py-2 px-4 mx-4 hover:bg-gray-100 text-gray-800 dark:text-gray-200 dark:hover:bg-warmgray-800"
-        href="https://rdnotes.com//archives/2023/03">2023/03 (2)</a>
-    
-    <a class="text-center block duration-100 py-2 px-4 mx-4 hover:bg-gray-100 text-gray-800 dark:text-gray-200 dark:hover:bg-warmgray-800"
-        href="https://rdnotes.com//archives/2023/04">2023/04 (2)</a>
-    
-    
-</div>
-        
-            
-            
-        
-            
-            
-<div class="bg-white panel mb-3 dark:bg-warmgray-900">
-    <p class="text-xl text-center text-gray-700 py-3 pl-3 dark:text-gray-300 font-bold">Tags</p>
-    <div class="panel-block p-2">
-        <a href='/tags/hugo'>
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900 dark:bg-warmgray-800">
-                hugo
-            </span></a>
-        <a href='/tags/linux'>
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900 dark:bg-warmgray-800">
-                linux
-            </span></a>
-        <a href='/tags/nginx'>
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900 dark:bg-warmgray-800">
-                nginx
-            </span></a>
-        <a href='/tags/ssl'>
-            <span
-                class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900 dark:bg-warmgray-800">
-                ssl
-            </span></a>
-    </div>
-</div>
-
-
-        
-            
-            
-
-<div class="bg-white panel mb-3 pb-5 dark:bg-warmgray-900">
-    <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300 font-bold">Recent Posts</p>
-    <div class="mx-6">
-        <a href="/ssh-server-update-content/" class="">
-            <div
-                class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">更新網站內容方法</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2023/04/11</time>
-                    </p>
-                </div>
-            </div>
-        </a>
-        <a href="/linode-ubuntu-linux-install-nginx/" class="">
-            <div
-                class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">[linux]如何在Linode VPS上架設Ubuntu與安裝Nginx server (含帳號申請購買教學)</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2023/04/08</time>
-                    </p>
-                </div>
-            </div>
-        </a>
-        <a href="/post/nginx-certbot-lets-encrypt-addssh/" class="">
-            <div
-                class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">[SSL]Ubuntu＋Nginx透過 Certbot 免費取得 Let&#39;s Encrypt SSL憑證</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2023/03/25</time>
-                    </p>
-                </div>
-            </div>
-        </a>
-        <a href="/post/nginx-multiple-domains-on-one-server/" class="">
-            <div
-                class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">[Nginx設定]Virtual Host Nginx http server與多個網域共用一台主機設定</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2023/03/18</time>
-                    </p>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-
-        
-    
-</div>
-        
-    </div>
-    
-            </div>
-        </div><footer class="bg-gray-800 text-white p-6">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   
-  <div class="container max-w-screen-xl mr-auto ml-auto">
-    <p>&copy; 2023 <a href="https://rdnotes.com/" class="duration-200 hover:opacity-50">RD Notes</a>
-    </p>
-    <p>Powered by <a href="https://gohugo.io/" class="duration-200 hover:opacity-50">Hugo</a>, Theme <a
-        href="https://github.com/opera7133/Blonde" class="duration-200 hover:opacity-50">Blonde</a>.</p>
-  </div>
+  <title>About Calligraphy | news hugo site
+  </title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta name="description" content="Cal·lig·ra·phy (kəˈliɡrəfē) n. decorative handwriting or handwritten lettering
+Calligraphy is a theme by Patrick A Collins for Hugo static site generator. Inspired by its namesake, the theme aims to provide a simple canvas that is elegant and ensures high readability for all visitors.
+   Photo of Calligraphy Materials by Vlada Karpovich from Pexels  ">
+  <meta name="generator" content="Hugo 0.91.2" />
+  <meta name="robots" content=" index, follow">
+
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
   
-  <script>
-    var icon = document.getElementById("icon");
-    var icon2 = document.getElementById("icon2");
+<link rel="stylesheet" href="/css/libraries.min.71ed9843bd9de5b970d18e88108ced41f778369861ec5e39a971f94435ada25f.css" crossorigin="anonymous" integrity="sha256-ce2YQ72d5blw0Y6IEIztQfd4Nphh7F45qXH5RDWtol8=">
+
+  
+<link rel="stylesheet" href="/scss/main.min.59fc8962a12e5421053fdaca3c44aa90d91bbfaaa313224619dd094b50a837ef.css" crossorigin="anonymous" integrity="sha256-WfyJYqEuVCEFP9rKPESqkNkbv6qjEyJGGd0JS1CoN&#43;8=">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/favicon/book1.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/book1.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/book1.png">
+  
+  <link rel="mask-icon" href="http://localhost:1313/favicon/safari-pinned-tab.svg"
+    color="#00aba9">
+  <link rel="shortcut icon" href="http://localhost:1313/favicon/book1.png">
+  <meta name="msapplication-TileColor"
+    content="#00aba9">
+  <meta name="msapplication-config" content="http://localhost:1313/%20favicon/browserconfig.xml">
+  <meta name="theme-color"
+    content="#00aba9">
+  <meta name="og:title" content="About Calligraphy">
+  <meta name="og:description" content="Cal·lig·ra·phy (kəˈliɡrəfē) n. decorative handwriting or handwritten lettering
+Calligraphy is a theme by Patrick A Collins for Hugo static site generator. Inspired by its namesake, the theme aims to provide a simple canvas that is elegant and ensures high readability for all visitors.
+   Photo of Calligraphy Materials by Vlada Karpovich from Pexels  ">
+  <meta name="og:type" content="article">
+  <meta name="og:site_name" content="news hugo site">
+  <meta name="og:url" content="http://localhost:1313/about/">
+  <meta name="twitter:card" content="summary_large_image">
+
+</head>
+
+<body>
+
+  <script type="text/javascript">
     
-    if (document.documentElement.classList.contains("dark") || localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      icon.classList.remove("icon-moon");
-      icon.classList.add("icon-sun");
-      icon2.classList.remove("icon-moon");
-      icon2.classList.add("icon-sun");
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-    function toggleDarkMode() {
-      if (document.documentElement.classList.contains('dark')) {
-        icon.classList.remove("icon-sun");
-        icon.classList.add("icon-moon");
-        icon2.classList.remove("icon-sun");
-        icon2.classList.add("icon-moon");
-        document.documentElement.classList.remove('dark')
-        localStorage.theme = 'light'
-      } else {
-        icon.classList.remove("icon-moon");
-        icon.classList.add("icon-sun");
-        icon2.classList.remove("icon-moon");
-        icon2.classList.add("icon-sun");
-        document.documentElement.classList.add('dark')
-        localStorage.theme = 'dark'
+    function detectTheme() {
+      var theme = "light";
+
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        var theme = "dark";
+      }
+
+      if (localStorage.getItem("theme")) {
+        var theme = localStorage.getItem("theme");
+      }
+
+      if (theme == "dark") {
+        document.documentElement.setAttribute("data-theme", "dark");
       }
     }
+
+    detectTheme();
   </script>
-</footer></div>
+
+  
+  <header id="site-header" class="l-compact">
+  <nav class="l-container_site">
+    <div class="branding">
+        <h1 class="branding-title">
+          <a href="/" accesskey="h" title="Home (Alt + H)">news hugo site</a>
+        </h1>
+      <p class="branding-tagline fw-bold">wp-test</p>
+    </div>
+    <label class="toggle  d-flex align-items-center" accesskey="t" title="Change Theme (Alt + T)">
+      <input id="theme-toggle" type="checkbox"></input>
+      <span class="theme-button me-3"></span>
+      <div class="theme-toggle-text">深色模式</div>
+    </label>
+    <div id="site-nav">
+      
+      <ul class="menu">
+      </ul>
+    </div>
+  </nav>
+  <progress id="reading-progress" max="100" value="0" ></progress>
+</header>
+
+  
+
+  <main id="site-main" role="main">
+
+    
+<article class="l-container_content card">
+  <h1 class="card-title">About Calligraphy</h1>
+  <p class="text-align-right"><strong>Cal·lig·ra·phy</strong> <em>(kəˈliɡrəfē)</em> n. <br>
+decorative handwriting or handwritten lettering</p>
+<p>Calligraphy is a theme by <a href="https://pacollins.com/">Patrick A Collins</a> for <a href="https://gohugo.io/">Hugo</a> static site generator. Inspired by its namesake, the theme aims to
+provide a simple canvas that is elegant and ensures high readability for all
+visitors.</p>
+<p>
+
+<figure>
+    <a href="calligraphy-karpovich.jpg" target="calligraphy-image">
+      <img loading="lazy" src="/about/calligraphy-karpovich_hu3d03a01dcc18bc5be0e67db3d8d209a6_1603720_700x0_resize_q75_box.jpg" alt="Photo of Calligraphy Materials by Vlada Karpovich from Pexels">
+    </a>
+  <figcaption class="text-small">Photo of Calligraphy Materials by Vlada Karpovich from Pexels</figcaption>
+</figure>
+</p>
+
+</article>
+    
+    
+    
+  </main>
+
+  <footer id="site-footer">
+  <p>Copyright © 2022  andycodingnotes</p>
+</footer>
+<script type="text/javascript" src="/js/bundle.min.fc52bbae33da57acd3b598ca93b1d9233268810f5d967bfbe7b275ba77826188.js" crossorigin="anonymous" integrity="sha256-/FK7rjPaV6zTtZjKk7HZIzJogQ9dlnv757J1uneCYYg="></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
 </body>
 
 </html>
