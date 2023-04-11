@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on RD Notes</title>
+    <link>https://rdnotes.com/tags/hugo/</link>
+    <description>Recent content in hugo on RD Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rdnotes.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>更新網站內容方法</title>
+      <link>https://rdnotes.com/ssh-server-update-content/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdnotes.com/ssh-server-update-content/</guid>
+      <description>git -用public放上git測試看看
+filezila
+rsync
+linux scp教學
+scp vs rsync: Copy files with SCP and Rsync
+scp -r
+sshpass -p &amp;lsquo;Zx830509Z4506270&amp;rsquo; rsync -r /app/* root@139.162.119.157:/var/www/html/rdnotes rsync -r 意思 rsync -avz意思
+cron jobs,
+app alpine:3
+docker run -it -v /Users/linyuan/Desktop/RDnotes/public:/app alpine:3 /bin/sh
+apk add sshpass
+apk add rsync
+apk add openssh
+Linux 中的 scp 命令居然有大学问，它与rsync命令有啥区别，速看！</description>
+    </item>
+    
+  </channel>
+</rss>

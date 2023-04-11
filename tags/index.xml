@@ -6,7 +6,16 @@
     <description>Recent content in Tags on RD Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 08 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rdnotes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rdnotes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://rdnotes.com/tags/hugo/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdnotes.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>https://rdnotes.com/tags/linux/</link>
